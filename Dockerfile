@@ -1,5 +1,5 @@
-# ubuntu_13.10
-# VERSION               0.0.2
+# ubuntu-13.10
+# VERSION               0.0.3
 
 FROM stackbrew/ubuntu:13.10
 
