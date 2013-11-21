@@ -7,7 +7,8 @@ MAINTAINER Angel Rodriguez  "angelrr7702@gmail.com"
 
 # to fix some problem
 
-RUN localedef -v -c -i en_US -f UTF-8 en_US.UTF-8
+RUN locale-gen en_US en_US.UTF-8
+RUN dpkg-reconfigure locales
 
 # make sure the package repository is up to date
 
