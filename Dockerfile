@@ -7,7 +7,7 @@ MAINTAINER Angel Rodriguez  "angelrr7702@gmail.com"
 
 # to fix some problem
 
-RUN locale-gen en_CA.UTF-8
+RUN localedef -v -c -i en_US -f UTF-8 en_US.UTF-8
 
 # make sure the package repository is up to date
 
