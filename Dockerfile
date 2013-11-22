@@ -13,12 +13,12 @@ RUN dpkg-reconfigure locales
 # make sure the package repository is up to date
 
 RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get dist-upgrade -y
+RUN apt-get upgrade -y -q
+RUN apt-get dist-upgrade -y -q
 
 # prefered editor
 
-RUN apt-get install -y nano
+RUN apt-get install -y -q nano
 
 # change password
 
