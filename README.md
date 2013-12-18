@@ -1,4 +1,4 @@
-ubuntu_13.10
-============
+docker-ubuntu_13_10
+===================
 
-Dockerfile to be use to build image for docker container with ubuntu 13.10
+Provides a Dockerfile to build an Ubuntu 13.10 image.
